@@ -9,7 +9,6 @@ def download_dataset():
     from tqdm import tqdm
     import tarfile
 
-
     cifar10_dataset_folder_path = 'cifar-10-batches-py'
     tar_gz_path = 'cifar-10-python.tar.gz'
 
