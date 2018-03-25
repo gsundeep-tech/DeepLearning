@@ -53,4 +53,7 @@ def load_data():
     return train_images, train_labels, validation_images, validation_labels, test_images, test_labels
 
 def reshape(x):
+    
+    import numpy as np
+    
     return np.reshape(x, [-1, 28, 28, 1])
